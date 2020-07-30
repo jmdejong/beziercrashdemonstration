@@ -1,0 +1,3 @@
+[submodule "triwild"]
+	path = triwild
+	url = git@github.com:wildmeshing/TriWild.git
