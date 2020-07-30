@@ -22,7 +22,7 @@ set(CURVE_HEADERS)
 add_subdirectory(triwild)
 
 # This will create you executable
-add_executable(testbezierfeature ${RESOURCES} ${CURVE_SOURCES} ${CURVE_HEADERS} ${UI})
+add_executable(testbezierfeature ${CURVE_SOURCES} ${CURVE_HEADERS})
 # This will link necessary Qt5 libraries to your project
 target_link_libraries(testbezierfeature Qt5::Widgets)
 target_link_libraries(testbezierfeature triwild_lib)
